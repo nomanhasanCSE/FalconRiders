@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <title>Falcon Riders</title>
+    <!-- Bootstrap cdn linked -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+          crossorigin="anonymous">
+    <!-- Font-awesome linked -->
+    <script src="https://kit.fontawesome.com/9bce863ca0.js"
+            crossorigin="anonymous"></script>
+    <!-- Custom css linked -->
+    <link rel="stylesheet"
+          href="style.css">
+  </head>
+
+  <body>
+    <!-- Header start -->
+    <header>
+      <nav class="navbar my-4 navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand me-5"
+             href="#">
+            <h1>FalconRiders</h1>
+          </a>
+          <button class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse"
+               id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+              <li class="nav-item me-5">
+                <a class="nav-link"
+                   aria-current="page"
+                   href="#">Home</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link"
+                   href="#courses">Courses </a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link"
+                   href="#">Deals </a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link"
+                   href="#">Success </a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link"
+                   href="#about">About </a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link"
+                   href="#register">Register </a>
+              </li>
+            </ul>
+            <form role="search">
+              <button class="btn btn-outline-success"
+                      type="submit">Register</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Carousel start -->
+      <section class="mt-5 mb-5">
+        <div id="carouselExampleControls"
+             class="carousel slide container mb-5"
+             data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/cover/banner-1.avif"
+                   class="d-block w-100"
+                   alt="...">
+              <div class="carousel-caption  lalign-middle h-75 d-none d-md-block">
+                <h1 class="fw-bold mt-5 pt-5">Largest bicycle manufacturer</h1>
+                <p>Check out our exclusive collection of mountain bikes, city bikes, girls cycles and more.</p>
+                <button type="button"
+                        class="btn btn-primary btn-lg mt-4">Shop Now</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/cover/banner-2.avif"
+                   class="d-block w-100"
+                   alt="...">
+              <div class="carousel-caption align-middle h-75 d-none d-md-block">
+                <h1 class="fw-bold">Get Started Digital Learning</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable
+                  content of a page when looking at its layout.</p>
+                <button type="button"
+                        class="btn btn-primary btn-lg">Get Started</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/cover/banner-3.jpg"
+                   class="d-block w-100"
+                   alt="...">
+              <div class="carousel-caption align-middle h-75 d-none d-md-block">
+                <h1 class="fw-bold">Get Started Digital Learning</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable
+                  content of a page when looking at its layout.</p>
+                <button type="button"
+                        class="btn btn-primary btn-lg">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"
+                  aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleControls"
+                  data-bs-slide="next">
+            <span class="carousel-control-next-icon"
+                  aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Carousel end -->
+
+    </header>
+    <!-- Header end -->
+
+    <!-- Main Section start -->
+    <main>
+
+      <!-- Catagories start -->
+      <section>
+        <div class="container text-center my-5">
+          <div class="row g-4 categories">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="p-3 border rounded-3 bg-warning d-flex align-items-center justify-content-around">
+                <h1 class="text-white">Bicycle</h1>
+                <img src="images/categories/bicycle.png"
+                     alt="">
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="p-3 border rounded-3 bg-success d-flex align-items-center justify-content-around">
+                <h1 class="text-white">Parts</h1>
+                <img src="images/categories/parts.png"
+                     alt="">
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="p-3 border rounded-3 bg-primary d-flex align-items-center justify-content-around">
+                <h1 class="text-white">Accessories</h1>
+                <img src="images/categories/accessories.png"
+                     alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Catagories end -->
+
+      <section class="container items my-5"
+               id="shoes">
+        <h1 class="text-center my-4">Bicycles</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card border border-0 shadow-lg h-100">
+              <img src="images/bicycles/bicycle-1.png"
+                   class="card-img-top"
+                   alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <h2>$120</h2>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                  additional.</p>
+              </div>
+              <div class="m-3">
+                <small>
+                  <div class="btn panda-btn-buy-now">Buy Me</div>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-0 shadow-lg h-100">
+              <img src="images/bicycles/bicycle-2.png"
+                   class="card-img-top"
+                   alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike 360</h5>
+                <h2>$320</h2>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="m-3">
+                <small>
+                  <div class="btn panda-btn-buy-now">Buy Me</div>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-0 shadow-lg h-100">
+              <img src="images/bicycles/bicycle-3.png"
+                   class="card-img-top"
+                   alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Airmax</h5>
+                <h2>$350</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+                </p>
+              </div>
+              <div class="m-3">
+                <small>
+                  <div class="btn panda-btn-buy-now">Buy Me</div>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-0 shadow-lg h-100">
+              <img src="images/bicycles/bicycle-4.png"
+                   class="card-img-top"
+                   alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <h2>$120</h2>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                  additional.</p>
+              </div>
+              <div class="m-3">
+                <small>
+                  <div class="btn panda-btn-buy-now">Buy Me</div>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-0 shadow-lg h-100">
+              <img src="images/bicycles/bicycle-5.png"
+                   class="card-img-top"
+                   alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike 360</h5>
+                <h2>$320</h2>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="m-3">
+                <small>
+                  <div class="btn panda-btn-buy-now">Buy Me</div>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-0 shadow-lg h-100">
+              <img src="images/bicycles/bicycle-6.png"
+                   class="card-img-top"
+                   alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Airmax</h5>
+                <h2>$350</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+                </p>
+              </div>
+              <div class="m-3">
+                <small>
+                  <div class="btn panda-btn-buy-now">Buy Me</div>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-0 shadow-lg h-100">
+              <img src="images/bicycles/bicycle-6.png"
+                   class="card-img-top"
+                   alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <h2>$120</h2>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                  additional.</p>
+              </div>
+              <div class="m-3">
+                <small>
+                  <div class="btn panda-btn-buy-now">Buy Me</div>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-0 shadow-lg h-100">
+              <img src="images/bicycles/bicycle-6.png"
+                   class="card-img-top"
+                   alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike 360</h5>
+                <h2>$320</h2>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="m-3">
+                <small>
+                  <div class="btn panda-btn-buy-now">Buy Me</div>
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-0 shadow-lg h-100">
+              <img src="images/bicycles/bicycle-6.png"
+                   class="card-img-top"
+                   alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Airmax</h5>
+                <h2>$350</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+                </p>
+              </div>
+              <div class="m-3">
+                <small>
+                  <div class="btn panda-btn-buy-now">Buy Me</div>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="container my-5"
+               id="shoes">
+        <h1 class="text-center my-4">Cart</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card border border-0 shadow-lg h-100">
+              <h2 class=" text-2xl text-center ">Selected - V</h2>
+              <img class="w-7/12 ml-12"
+                   src="images/Red Marker.png"
+                   alt="">
+              <ol id="listedPlayer"
+                  class="list-decimal pl-6 text-xl font-medium">
+
+              </ol>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-0 shadow-lg h-100">
+                <h2 class="  text-2xl text-center ">Budget</h2>
+                <img class="w-2/5 ml-16"
+                     src="images/Red Marker.png"
+                     alt="">
+                <div class=" flex pt-3">
+                  <span class="content-left  text-left text-xl ml-2 mr-3 ">Per Player: </span>
+    
+                  <input class="w-24 text-white bg-black border-solid border-2 border-indigo-600"
+                         type="number"
+                         name=""
+                         id="perPlayer">
+    
+                </div>
+                <div><button class="bg-lime-600 w-9/12 mx-6 my-6 font-medium py-1"
+                          id="calculate">Calculate</button>
+                </div>
+                <!-- calculate total player cost and show  -->
+    
+                <div class="flex justify-between">
+                  <p class=" text-xl ml-2  text-left">Total: </p>
+                  <P>$<span id="TotalPlayersAmount"
+                          class="text-red-500 mr-5">00</span></p>
+                </div>
+    
+    
+                <!-- calculate total player cost and add managment cost here -->
+    
+                <div class=" flex w-auto my-4">
+                  <span class="text-xl ml-2 content-left w-24
+              text-left">Manager:</span>
+    
+                  <input class="w-24 text-white bg-black border-solid border-2 border-indigo-600"
+                         type="number"
+                         name=""
+                         id="manager">
+    
+                </div>
+                <!-- Get the cost for Coach -->
+                <div class=" flex ">
+                  <span class=" text-xl ml-2  content-left w-24 text-left">Coach :</span>
+    
+                  <input class="w-24 text-white bg-black border-solid border-2 border-indigo-600"
+                         type="number"
+                         name=""
+                         id="coach">
+    
+                </div>
+                <!-- calculate the total cost by clicking this button -->
+                <div><button class="bg-lime-600 w-9/12 mx-6 my-6 font-medium py-1"
+                          id="calculateTotal">Calculate
+                    Total</button></div>
+    
+                <div class="flex justify-between">
+                  <p class=" text-xl ml-2 text-left">Total cost is:</p>
+                  <p>$ <span id="totalPriceIs"
+                          class="text-red-500 mr-5">00</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- modal start -->
+      <section id="register"
+               class=" col-12 container mx-auto mt-5 bg-info py-5">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6 col-12 text-center ">
+            <h1>Ready to join?</h1>
+            <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page
+              when looking at its layout.</p>
+
+          </div>
+          <div class=" col-lg-6 col-12">
+            <!-- Button trigger modal -->
+            <button type="button"
+                    class="btn btn-light text-primary btn-lg"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+              Register Now
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade"
+                 id="exampleModal"
+                 tabindex="-1"
+                 aria-labelledby="exampleModalLabel"
+                 aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title"
+                        id="exampleModalLabel">Modal title</h5>
+                    <button type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>You are alway valuable to us.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">Close</button>
+                    <button type="button"
+                            class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- modal end -->
+
+
+      <!-- Accordion start -->
+      <section>
+        <div class="container my-5 text-center">
+          <h1>Frequently Asked Questions</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable <br>
+            content of a page when looking at its layout.</p>
+        </div>
+
+        <div class="accordion container mb-5 w-50"
+             id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header"
+                id="headingOne">
+              <button class="accordion-button fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne">
+                What are the difference between flexbox and grid?
+              </button>
+            </h2>
+            <div id="collapseOne"
+                 class="accordion-collapse collapse show"
+                 aria-labelledby="headingOne"
+                 data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for
+                  layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout -
+                  rows, and columns at the same time. The two specifications share some common features, however, and if
+                  you have already learned how to use flexbox, the similarities should help you get to grips with Grid.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header"
+                id="headingTwo">
+              <button class="accordion-button fw-semibold collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo">
+                What are the difference between bootstrap and tailwind?
+              </button>
+            </h2>
+            <div id="collapseTwo"
+                 class="accordion-collapse collapse"
+                 aria-labelledby="headingTwo"
+                 data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite
+                  UI kit. Tailwind offers predesigned widgets to build a site from scratch with fast UI development.
+                  Sites created using Bootstrap follow the generic pattern that makes them look identical. Tailwind CSS
+                  uses a set of utility classes to create a neat UI with more flexibility and uniqueness. </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header"
+                id="headingThree">
+              <button class="accordion-button fw-semibold collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree">
+                What is css box model?
+              </button>
+            </h2>
+            <div id="collapseThree"
+                 class="accordion-collapse collapse"
+                 aria-labelledby="headingThree"
+                 data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>The CSS box model is a container that contains multiple properties including borders, margin,
+                  padding, and the content itself. It is used to create the design and layout of web pages. It can be
+                  used as a toolkit for customizing the layout of different elements. The web browser renders every
+                  element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header"
+                id="headingFour">
+              <button class="accordion-button collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="true"
+                      aria-controls="collapseFour">
+                What is Semantic Element?
+              </button>
+            </h2>
+            <div id="collapseFour"
+                 class="accordion-collapse collapse"
+                 aria-labelledby="headingFour"
+                 data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Semantic elements have meaningful names which tells about type of content. For example header,
+                  footer, table, … etc. HTML5 introduces many semantic elements as mentioned below which make the code
+                  easier to write and understand for the developer as well as instructs the browser on how to treat
+                  them.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Accordion end -->
+
+      <section class="container d-none d-lg-block .d-xl-none">
+        <h1 class="text-center py-3">Trusted by over 800+ companies</h1>
+
+        <div class=" ms-4 mt-3 mb-5 logo">
+          <img class="pe-5"
+               src="images/company/company-1.png"
+               alt="">
+          <img class="pe-5"
+               src="images/company/company-2.png"
+               alt="">
+          <img class="pe-5"
+               src="images/company/company-3.png"
+               alt="">
+          <img class="pe-5"
+               src="images/company/company-4.png"
+               alt="">
+          <img class="pe-5"
+               src="images/company/company-5.png"
+               alt="">
+          <img class="pe-5"
+               src="images/company/company-6.png"
+               alt="">
+
+        </div>
+
+      </section>
+
+    </main>
+    <!-- Main Section end -->
+
+    <!-- Footer start -->
+    <footer id="about"
+            class="text-white bg-dark">
+      <div class=" py-5 text-center">
+        <h1>FalconRiders</h1>
+        <small>Hamid Tower, Level 5, Gulshan-2, <br>
+          Dhaka, Bangladesh <br>
+          Privacy Ploicy | Terms of use</small><br>
+        <a href="https://web.facebook.com/AlwaysNoman/"><i class=" pe-3 fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/FcNoman"><i class=" pe-3 fa-brands fa-square-twitter"></i></a>
+        <a href="https://github.com/NomanSpeaks"><i class=" pe-3 fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/noman_on_live/"><i class=" pe-3 fa-brands fa-instagram"></i></a>
+      </div>
+
+    </footer>
+    <!-- Footer end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
+  </body>
+
+</html>
