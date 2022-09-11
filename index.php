@@ -16,7 +16,7 @@
             crossorigin="anonymous"></script>
     <!-- Custom css linked -->
     <link rel="stylesheet"
-          href="style.css">
+          href="css/style.css">
   </head>
 
   <body>
@@ -47,28 +47,28 @@
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link"
-                   href="#courses">Courses </a>
+                   href="#">Bicycle </a>
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link"
-                   href="#">Deals </a>
+                   href="#">parts </a>
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link"
-                   href="#">Success </a>
+                href="#">Accessories</a>
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link"
-                   href="#about">About </a>
+                href="login.php">Sign In</a>
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link"
-                   href="#register">Register </a>
+                href="signup.php">Sign Up</a>
               </li>
             </ul>
             <form role="search">
               <button class="btn btn-outline-success"
-                      type="submit">Register</button>
+                      type="submit">Contact</button>
             </form>
           </div>
         </div>
@@ -95,11 +95,10 @@
                    class="d-block w-100"
                    alt="...">
               <div class="carousel-caption align-middle h-75 d-none d-md-block">
-                <h1 class="fw-bold">Get Started Digital Learning</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable
-                  content of a page when looking at its layout.</p>
+                <h1 class="fw-bold">Women's Special Bicycle Sell</h1>
+                <p>Explore the wide collections of women's bicycle</p>
                 <button type="button"
-                        class="btn btn-primary btn-lg">Get Started</button>
+                        class="btn btn-primary btn-lg">Shop Now</button>
               </div>
             </div>
             <div class="carousel-item">
@@ -107,11 +106,10 @@
                    class="d-block w-100"
                    alt="...">
               <div class="carousel-caption align-middle h-75 d-none d-md-block">
-                <h1 class="fw-bold">Get Started Digital Learning</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable
-                  content of a page when looking at its layout.</p>
+                <h1 class="fw-bold">Buy Bicycles and Accessories</h1>
+                <p>Top brands. Huge selection. Great offers. Best deals</p>
                 <button type="button"
-                        class="btn btn-primary btn-lg">Get Started</button>
+                        class="btn btn-primary btn-lg">Shop Now</button>
               </div>
             </div>
           </div>
@@ -172,8 +170,8 @@
       <!-- Catagories end -->
 
       <section class="container items my-5"
-               id="shoes">
-        <h1 class="text-center my-4">Bicycles</h1>
+               id="bicycles">
+        <h1 class="text-center my-4">Products</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
             <div class="card border border-0 shadow-lg h-100">
@@ -181,10 +179,9 @@
                    class="card-img-top"
                    alt="...">
               <div class="card-body">
-                <h5 id="item-1" class="card-title">Supply 350</h5>
-                <h2>$120</h2>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                  additional.</p>
+                <h5 id="item-1" class="card-title">THE PORTOFINO</h5>
+                <h2 >$ <span id="price-1">150</span></h2>
+                <p class="card-text">Protofino is the biggest names in cycling world, Specialized was bought by Meridia Bikes (a 40 percent share) in 2001 and has relaunched with new efforts and even better designs.</p>
               </div>
               <div class="m-3">
                 <small>
@@ -199,9 +196,9 @@
                    class="card-img-top"
                    alt="...">
               <div class="card-body">
-                <h5 id="item-2" class="card-title">Nike 360</h5>
-                <h2>$320</h2>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 id="item-2" class="card-title">THE POWER+ EVO</h5>
+                <h2 >$<span id="price-2">270</span></h2>
+                <p class="card-text">The Portofino is the first steel frame in the world with proprietary oversized lugs designed to fit the oversized Columbus HSS tubing and a tapered steerer.</p>
               </div>
               <div class="m-3">
                 <small>
@@ -216,9 +213,9 @@
                    class="card-img-top"
                    alt="...">
               <div class="card-body">
-                <h5 id="item-3" class="card-title">Red Airmax</h5>
-                <h2>$350</h2>
-                <p  class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+                <h5 id="item-3" class="card-title">THE ROCHE</h5>
+                <h2 >$<span id="price-3">320</span></h2>
+                <p  class="card-text">Stephen Roche is a limited edition of 30 classic lugged framesets that are now completely sold out.
                 </p>
               </div>
               <div class="m-3">
@@ -234,10 +231,9 @@
                    class="card-img-top"
                    alt="...">
               <div class="card-body">
-                <h5 id="item-4" class="card-title">Supply 350</h5>
-                <h2>$120</h2>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                  additional.</p>
+                <h5 id="item-4" class="card-title">TREK BIKES</h5>
+                <h2 >$<span id="price-4">190</span></h2>
+                <p class="card-text">The Trek 850, in 1983, was the first mountain bikes they ever released and it soon caught on that Trek was a name to remember. By the late 1990s they were building all ranges of bikes for all riders.</p>
               </div>
               <div class="m-3">
                 <small>
@@ -248,13 +244,13 @@
           </div>
           <div class="col">
             <div class="card border border-0 shadow-lg h-100">
-              <img src="images/bicycles/bicycle-5.png"
+              <img src="images/bicycles/wheel.jpg"
                    class="card-img-top"
                    alt="...">
               <div class="card-body">
-                <h5 id="item-5" class="card-title">Nike 360</h5>
-                <h2>$320</h2>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 id="item-5" class="card-title">wheel</h5>
+                <h2 >$<span id="price-5">50</span></h2>
+                <p class="card-text">A bicycle wheel is a wheel, most commonly a wire wheel, designed for a bicycle. A pair is often called a wheelset, especially in the context of ready built "off the shelf" performance-oriented wheels.</p>
               </div>
               <div class="m-3">
                 <small>
@@ -265,13 +261,13 @@
           </div>
           <div class="col">
             <div class="card border border-0 shadow-lg h-100">
-              <img src="images/bicycles/bicycle-6.png"
+              <img src="images/bicycles/accessories-1.png"
                    class="card-img-top"
                    alt="...">
               <div class="card-body">
-                <h5 id="item-6"class="card-title">Red Airmax</h5>
-                <h2>$350</h2>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
+                <h5 id="item-6"class="card-title">HELMET</h5>
+                <h2 >$<span id="price-6">30</span></h2>
+                <p class="card-text"> This bicycle helmet is a type of helmet designed to attenuate impacts to the head of a cyclist in falls while minimizing side effects such as interference with peripheral vision
                 </p>
               </div>
               <div class="m-3">
@@ -281,137 +277,37 @@
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="card border border-0 shadow-lg h-100">
-              <img src="images/bicycles/bicycle-6.png"
-                   class="card-img-top"
-                   alt="...">
-              <div class="card-body">
-                <h5 id="item-1" class="card-title">Supply 350</h5>
-                <h2>$120</h2>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                  additional.</p>
-              </div>
-              <div class="m-3">
-                <small>
-                  <div id="btn-7" class="btn panda-btn-buy-now">Buy Me</div>
-                </small>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border border-0 shadow-lg h-100">
-              <img src="images/bicycles/bicycle-6.png"
-                   class="card-img-top"
-                   alt="...">
-              <div class="card-body">
-                <h5 id="item-8" class="card-title">Nike 360</h5>
-                <h2>$320</h2>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="m-3">
-                <small>
-                  <div id="btn-8" class="btn panda-btn-buy-now">Buy Me</div>
-                </small>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card border border-0 shadow-lg h-100">
-              <img src="images/bicycles/bicycle-6.png"
-                   class="card-img-top"
-                   alt="...">
-              <div class="card-body">
-                <h5 id="item-9" class="card-title">Red Airmax</h5>
-                <h2>$350</h2>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.
-                </p>
-              </div>
-              <div class="m-3">
-                <small>
-                  <div id="btn-9" class="btn panda-btn-buy-now">Buy Me</div>
-                </small>
-              </div>
-            </div>
-          </div>
+  
         </div>
 
       </section>
 
       <section class="container my-5"
-               id="shoes">
-        <h1 class="text-center my-4">Cart</h1>
+               id="">
+        <h1 class="text-center my-4">Dashboard</h1>
         <div class="row row-cols-1 row-cols-md-2 g-4">
           <div class="col">
             <div class="card border border-0 shadow-lg h-100">
-              <h2 class=" text-2xl text-center ">Selected - V</h2>
-              <img class="w-7/12 ml-12"
-                   src="images/Red Marker.png"
-                   alt="">
-              <ol id="listedPlayer"
-                  class="list-decimal pl-6 text-xl font-medium">
+              <h3 class=" text-2xl text-center mt-2 mb-4 ">List Of Your Order Items</h3>
+             
+              <ol id="listeditem"
+                  class="list-decimal ms-3 fs-4s">
 
               </ol>
             </div>
           </div>
           <div class="col">
             <div class="card border border-0 shadow-lg h-100">
-                <h2 class="  text-2xl text-center ">Budget</h2>
-                <img class="w-2/5 ml-16"
-                     src="images/Red Marker.png"
-                     alt="">
-                <div class=" flex pt-3">
-                  <span class="content-left  text-left text-xl ml-2 mr-3 ">Per Player: </span>
-    
-                  <input class="w-24 text-white bg-black border-solid border-2 border-indigo-600"
-                         type="number"
-                         name=""
-                         id="perPlayer">
-    
-                </div>
-                <div><button class="bg-lime-600 w-9/12 mx-6 my-6 font-medium py-1"
-                          id="calculate">Calculate</button>
-                </div>
-                <!-- calculate total player cost and show  -->
-    
-                <div class="flex justify-between">
-                  <p class=" text-xl ml-2  text-left">Total: </p>
-                  <P>$<span id="TotalPlayersAmount"
-                          class="text-red-500 mr-5">00</span></p>
-                </div>
-    
-    
-                <!-- calculate total player cost and add managment cost here -->
-    
-                <div class=" flex w-auto my-4">
-                  <span class="text-xl ml-2 content-left w-24
-              text-left">Manager:</span>
-    
-                  <input class="w-24 text-white bg-black border-solid border-2 border-indigo-600"
-                         type="number"
-                         name=""
-                         id="manager">
-    
-                </div>
-                <!-- Get the cost for Coach -->
-                <div class=" flex ">
-                  <span class=" text-xl ml-2  content-left w-24 text-left">Coach :</span>
-    
-                  <input class="w-24 text-white bg-black border-solid border-2 border-indigo-600"
-                         type="number"
-                         name=""
-                         id="coach">
-    
-                </div>
+                <h3 class="  text-center mt-2 mb-4 ">Your Expense</h3>
+                
+            
                 <!-- calculate the total cost by clicking this button -->
-                <div><button class="bg-lime-600 w-9/12 mx-6 my-6 font-medium py-1"
-                          id="calculateTotal">Calculate
-                    Total</button></div>
+                
     
-                <div class="flex justify-between">
-                  <p class=" text-xl ml-2 text-left">Total cost is:</p>
-                  <p>$ <span id="totalPriceIs"
-                          class="text-red-500 mr-5">00</span></p>
+                <div class="d-flex justify-between">
+                  <h3 class=" ms-2"> Total cost is:</h3> 
+                  <p class="ms-2 fs-3"> $ <span id="totalPriceIs"
+                          class="text-red-500 ms-1">00</span></p>
               </div>
             </div>
           </div>
@@ -429,8 +325,7 @@
         <div class="row align-items-center justify-content-center">
           <div class="col-lg-6 col-12 text-center ">
             <h1>Ready to join?</h1>
-            <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page
-              when looking at its layout.</p>
+            <p>It is generally accepted that a cycling marathon is 100 miles, also known as a ‘century’. It is understood that it generally takes about the same level of energy and time to run one mile as it does to cycle 4 miles. So the 26-mile running marathon is equivalent to 100 miles cycling</p>
 
           </div>
           <div class=" col-lg-6 col-12">
@@ -621,7 +516,7 @@
 
     <!-- Footer start -->
     <footer id="about"
-            class="text-white bg-dark">
+            class="container">
       <div class=" py-5 text-center">
         <h1>FalconRiders</h1>
         <small>Hamid Tower, Level 5, Gulshan-2, <br>
@@ -641,7 +536,7 @@
             integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
             crossorigin="anonymous"></script>
 
-    <script src="dom.js"></script>
+    <script src="js/dom.js"></script>
   </body>
 
 </html>
