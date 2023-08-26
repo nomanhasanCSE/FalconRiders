@@ -43,7 +43,7 @@
               <li class="nav-item me-5">
                 <a class="nav-link"
                    aria-current="page"
-                   href="#">Home</a>
+                   href="index.php">Home</a>
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link"
@@ -51,7 +51,7 @@
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link"
-                   href="#">parts </a>
+                   href="#">Parts </a>
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link"
@@ -168,9 +168,9 @@
         </div>
       </section>
       <!-- Catagories end -->
-
+<!-- products section starts -->
       <section class="container items my-5"
-               id="bicycles">
+               id="bicycle">
         <h1 class="text-center my-4">Products</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -185,7 +185,7 @@
               </div>
               <div class="m-3">
                 <small>
-                  <div id="btn-1" class="btn panda-btn-buy-now">Buy Me</div>
+                  <div id="btn-1" class="btn falcon-btn-buy-now">Buy Me</div>
                 </small>
               </div>
             </div>
@@ -202,7 +202,7 @@
               </div>
               <div class="m-3">
                 <small>
-                  <div id="btn-2" class="btn panda-btn-buy-now">Buy Me</div>
+                  <div id="btn-2" class="btn falcon-btn-buy-now">Buy Me</div>
                 </small>
               </div>
             </div>
@@ -220,7 +220,7 @@
               </div>
               <div class="m-3">
                 <small>
-                  <div id="btn-3"class="btn panda-btn-buy-now">Buy Me</div>
+                  <div id="btn-3"class="btn falcon-btn-buy-now">Buy Me</div>
                 </small>
               </div>
             </div>
@@ -237,7 +237,7 @@
               </div>
               <div class="m-3">
                 <small>
-                  <div id="btn-4" class="btn panda-btn-buy-now">Buy Me</div>
+                  <div id="btn-4" class="btn falcon-btn-buy-now">Buy Me</div>
                 </small>
               </div>
             </div>
@@ -248,13 +248,13 @@
                    class="card-img-top"
                    alt="...">
               <div class="card-body">
-                <h5 id="item-5" class="card-title">wheel</h5>
+                <h5 id="item-5" class="card-title">WHEEL</h5>
                 <h2 >$<span id="price-5">50</span></h2>
                 <p class="card-text">A bicycle wheel is a wheel, most commonly a wire wheel, designed for a bicycle. A pair is often called a wheelset, especially in the context of ready built "off the shelf" performance-oriented wheels.</p>
               </div>
               <div class="m-3">
                 <small>
-                  <div id="btn-5" class="btn panda-btn-buy-now">Buy Me</div>
+                  <div id="btn-5" class="btn falcon-btn-buy-now">Buy Me</div>
                 </small>
               </div>
             </div>
@@ -272,7 +272,7 @@
               </div>
               <div class="m-3">
                 <small>
-                  <div id="btn-6" class="btn panda-btn-buy-now">Buy Me</div>
+                  <div id="btn-6" class="btn falcon-btn-buy-now">Buy Me</div>
                 </small>
               </div>
             </div>
@@ -391,7 +391,7 @@
                       data-bs-target="#collapseOne"
                       aria-expanded="true"
                       aria-controls="collapseOne">
-                What are the difference between flexbox and grid?
+                How do you describe cycling?
               </button>
             </h2>
             <div id="collapseOne"
@@ -399,10 +399,7 @@
                  aria-labelledby="headingOne"
                  data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for
-                  layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout -
-                  rows, and columns at the same time. The two specifications share some common features, however, and if
-                  you have already learned how to use flexbox, the similarities should help you get to grips with Grid.
+                <p>cycling, use of a bicycle for sport, recreation, or transportation. The sport of cycling consists of professional and amateur races, which are held mostly in continental Europe, the United States, and Asia. The recreational use of the bicycle is widespread in Europe and the United States.
                 </p>
               </div>
             </div>
@@ -416,7 +413,7 @@
                       data-bs-target="#collapseTwo"
                       aria-expanded="false"
                       aria-controls="collapseTwo">
-                What are the difference between bootstrap and tailwind?
+                What histoy of bicycle?
               </button>
             </h2>
             <div id="collapseTwo"
@@ -424,10 +421,7 @@
                  aria-labelledby="headingTwo"
                  data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite
-                  UI kit. Tailwind offers predesigned widgets to build a site from scratch with fast UI development.
-                  Sites created using Bootstrap follow the generic pattern that makes them look identical. Tailwind CSS
-                  uses a set of utility classes to create a neat UI with more flexibility and uniqueness. </p>
+                <p> The first documented producer of rod-driven two-wheelers, treadle bicycles, was Thomas McCall, of Kilmarnock in 1869. The design was inspired by the French front-crank velocipede of the Lallement/Michaux type.[17] </p>
               </div>
             </div>
           </div>
@@ -440,7 +434,7 @@
                       data-bs-target="#collapseThree"
                       aria-expanded="false"
                       aria-controls="collapseThree">
-                What is css box model?
+                      What’s the difference between a mountain bike and a road bike?
               </button>
             </h2>
             <div id="collapseThree"
@@ -448,10 +442,7 @@
                  aria-labelledby="headingThree"
                  data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>The CSS box model is a container that contains multiple properties including borders, margin,
-                  padding, and the content itself. It is used to create the design and layout of web pages. It can be
-                  used as a toolkit for customizing the layout of different elements. The web browser renders every
-                  element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS
+                <p>In essence, the differences are simple: Mountain bikes are designed to be ridden more slowly, on more varied terrain, and with more emphasis on control over speed. Road bikes are ridden on smoother and less varied terrain and tend to prioritize speed over control.
                 </p>
               </div>
             </div>
@@ -465,7 +456,7 @@
                       data-bs-target="#collapseFour"
                       aria-expanded="true"
                       aria-controls="collapseFour">
-                What is Semantic Element?
+                      How long should I cycle at the gym?
               </button>
             </h2>
             <div id="collapseFour"
@@ -473,10 +464,7 @@
                  aria-labelledby="headingFour"
                  data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <p>Semantic elements have meaningful names which tells about type of content. For example header,
-                  footer, table, … etc. HTML5 introduces many semantic elements as mentioned below which make the code
-                  easier to write and understand for the developer as well as instructs the browser on how to treat
-                  them.</p>
+                <p>What are your goals? If you want to lose weight, we suggest cramming a few short intervals (periods of high intensity) into the time you have available. Let’s say you warm up for five minutes, then complete 10 one-minute efforts with two minutes of rest in between, before cooling down for another five minutes.</p>
               </div>
             </div>
           </div>
@@ -519,12 +507,12 @@
             class="container">
       <div class=" py-5 text-center">
         <h1>FalconRiders</h1>
-        <small>Hamid Tower, Level 5, Gulshan-2, <br>
+        <small>Noman Tower, Level 5, Gulshan-2, <br>
           Dhaka, Bangladesh <br>
           Privacy Ploicy | Terms of use</small><br>
         <a href="https://web.facebook.com/AlwaysNoman/"><i class=" pe-3 fa-brands fa-facebook"></i></a>
         <a href="https://twitter.com/FcNoman"><i class=" pe-3 fa-brands fa-square-twitter"></i></a>
-        <a href="https://github.com/NomanSpeaks"><i class=" pe-3 fa-brands fa-github"></i></a>
+        <a href="https://github.com/nomanhasanCSE"><i class=" pe-3 fa-brands fa-github"></i></a>
         <a href="https://www.instagram.com/noman_on_live/"><i class=" pe-3 fa-brands fa-instagram"></i></a>
       </div>
 

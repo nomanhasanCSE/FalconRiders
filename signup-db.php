@@ -9,4 +9,4 @@ $sql = "INSERT INTO signup(Name,Email,Phone,Password) VALUES('$a','$b','$c','$d'
 mysqli_query($con,$sql);
 echo "Your Sign up is Succesfull";
 
-?>
+?>  

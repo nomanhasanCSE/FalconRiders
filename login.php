@@ -38,11 +38,11 @@
               <li class="nav-item me-5">
                 <a class="nav-link"
                    aria-current="page"
-                   href="#">Home</a>
+                   href="index.php">Home</a>
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link"
-                   href="#">Bicycle </a>
+                   href="bicycle">Bicycle </a>
               </li>
               <li class="nav-item me-5">
                 <a class="nav-link"
@@ -84,12 +84,12 @@
 class="container">
 <div class=" py-5 text-center">
 <h1>FalconRiders</h1>
-<small>Hamid Tower, Level 5, Gulshan-2, <br>
+<small>Noman Tower, Level 5, Gulshan-2, <br>
 Dhaka, Bangladesh <br>
 Privacy Ploicy | Terms of use</small><br>
 <a href="https://web.facebook.com/AlwaysNoman/"><i class=" pe-3 fa-brands fa-facebook"></i></a>
 <a href="https://twitter.com/FcNoman"><i class=" pe-3 fa-brands fa-square-twitter"></i></a>
-<a href="https://github.com/NomanSpeaks"><i class=" pe-3 fa-brands fa-github"></i></a>
+<a href="https://github.com/nomanhasanCSE"><i class=" pe-3 fa-brands fa-github"></i></a>
 <a href="https://www.instagram.com/noman_on_live/"><i class=" pe-3 fa-brands fa-instagram"></i></a>
 </div>
 

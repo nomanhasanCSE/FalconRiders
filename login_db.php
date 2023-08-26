@@ -11,7 +11,7 @@ if($count){
     echo "Successfully login";
 }
 else {
-   echo "failedd to login";
+   echo "failed to login";
 }
 
 ?>

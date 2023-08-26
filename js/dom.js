@@ -14,7 +14,7 @@ document.getElementById('btn-1').addEventListener('click', function () {
     const buttonDisable = document.getElementById('btn-1');
     buttonDisable.disabled = true;
    
-    // set the item name to the selected V
+    // set the item name to the Selected Item List
     const item1Name = document.getElementById('item-1');
     
     const newadded1 = item1Name.innerText;
